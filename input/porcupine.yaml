@@ -511,11 +511,11 @@ pcbs:
         outline: controller_plate_with_holes
         layer: Cmts.User
     footprints:
-      choc_hotswap:
-        what: choc
+      mx:
+        what: mx
         where: true
         params:
-          hotswap: true
+          hotswap: false
           reverse: true
           keycaps: true
           from: "{{colrow}}"
